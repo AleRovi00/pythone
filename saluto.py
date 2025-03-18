@@ -1,1 +1,1 @@
-print ("ciao, sono alessandro")
+print("ciao, sono alessandro")
