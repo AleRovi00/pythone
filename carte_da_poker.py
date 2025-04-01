@@ -10,6 +10,6 @@ fiori = fiori_bytes.decode()
 picche_bytes = b"\xE2\x99\xA4"
 picche = picche_bytes.decode()
 
-print = cuori + quadri + fiori + picche
+print (cuori + quadri + fiori + picche)
 
 
