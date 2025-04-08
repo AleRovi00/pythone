@@ -27,6 +27,6 @@ while utente_input !="-1":
     animali.append(utente_input[-1] == "Y")
     counter += 1
     utente_input = input("inserisci il prezzo e Y/N: ")
-print(disocunt(prezzi, animali, counter))
+print(discount(prezzi, animali, counter))
 
 
