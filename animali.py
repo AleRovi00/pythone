@@ -17,6 +17,7 @@ def discount(prices, isPet, nItems):
     else:
        return 0.00
 
+
 prezzi = []
 animali = []
 counter = 0
