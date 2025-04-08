@@ -9,3 +9,4 @@ if lista:
     print("Il valore massimo della lista è:", max(lista))
 else:
     print("La lista è vuota.")
+
