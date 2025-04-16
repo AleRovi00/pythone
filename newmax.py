@@ -5,12 +5,22 @@ def leggiFileScelto():
     daLeggere.close()
     i = 0
     somma = 0
+    lista=[]
+
     for riga in righe:
-        somma += int(riga)
+        somma += float(riga)
         i += 1
     somma_int = float(somma)
     media = (somma_int / i)
+    if i == 0:
+        print("La somma è zero")
     print("la media è: ", media)
+
+    for riga in righe:
+        lista.append(float(riga))
+    if lista:
+        print("Il valore massimo della lista è:", max(lista))
+        
     
 leggiFileScelto()
 
