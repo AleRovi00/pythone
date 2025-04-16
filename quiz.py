@@ -14,7 +14,8 @@ class student:
         return self._score
     def getAverageScore(self):
         if self._quiz == 0:
-            return 0
+            #return 0
+            raise ValueError(f"lo studente {self._name} {self._surname} non ha fatto nessun quiz")
         return self._score / self._quiz
 
 ale= student("Alessandro", "Rossi")
@@ -24,3 +25,6 @@ ale.addQuiz(9)
 print(ale.getName())
 print(ale.getTotalScore())
 print(ale.getAverageScore())
+
+marco= student("Marco", "Bianchi")
+print(marco.getAverageScore())
