@@ -10,8 +10,7 @@ def leggiFileScelto():
     for riga in righe:
         somma += float(riga)
         i += 1
-    somma_int = float(somma)
-    media = (somma_int / i)
+    media = (somma / i)
     if i == 0:
         print("La somma è zero")
     print("la media è: ", media)
