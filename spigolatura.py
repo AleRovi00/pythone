@@ -12,3 +12,5 @@ def naviga2(tag, indent) :
     for stag in tag.contents:
         if type(stag) == bs4.element.Tag :
             naviga2(stag, indent + " ")
+
+naviga2(doc, " ")
